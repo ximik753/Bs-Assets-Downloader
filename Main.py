@@ -58,7 +58,7 @@ if __name__ == '__main__':
         print('[*] FingerPrint has been received')
 
     else:
-        print('[*] PreAuth packet is outdated , please get the latest one on Sc-Ximik Github !')
+        print('[*] PreAuth packet is outdated, please get the latest one on Ximik Github !')
         sys.exit()
     
     fingerprint = Reader.read_string()
